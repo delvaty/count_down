@@ -50,7 +50,7 @@ class DatePickerPageState extends State<DatePickerPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Calculadora de Tiempo Restante'),
+        title: Center(child: Text('Calculadora de Tiempo Restante')),
       ),
       body: SingleChildScrollView(
         child: Padding(

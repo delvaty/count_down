@@ -22,6 +22,7 @@ class CustomDatePicker extends StatelessWidget {
       children: [
         Center(
           child: Text(
+            textAlign: TextAlign.center,
             selectedDate == null
                 ? 'No se ha seleccionado una fecha'
                 : 'Fecha seleccionada: ${DateFormat('dd/MM/yyyy').format(selectedDate!)}',
